@@ -35,3 +35,5 @@ def play_guessing_game():
 
 if __name__ == "__main__":
     play_guessing_game()
+    print("遊戲結束，謝謝你的參與！")
+
