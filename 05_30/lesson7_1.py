@@ -51,3 +51,12 @@ try:
 except Exception as e:
 	print("發生錯誤:", e)
 
+#====================
+
+file = open("student.txt","r",encoding="utf-8")
+print(file.name)
+print(file.mode)
+print(file.closed)
+print(file.encoding)
+print(file.read())
+file.close()
