@@ -11,3 +11,8 @@ dependencies = [
     "requests>=2.34.2",
     "yfinance>=1.4.1",
 ]
+
+[tool.uv.workspace]
+members = [
+    "06_06",
+]
