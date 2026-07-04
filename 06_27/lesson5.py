@@ -274,7 +274,7 @@ class PyQtGraphDemoApp(QMainWindow):
 
     def __init__(self):
         super().__init__()
-        self.setWindowTitle("PyQtGraph 強大功能測試與展示儀表板")
+        self.setWindowTitle("老王史提夫-PyQtGraph 強大功能測試與展示儀表板")
         self.resize(1200, 800)
         self.setStyleSheet(MODERN_STYLE)
 
